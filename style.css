@@ -1,0 +1,43 @@
+ul{
+  list-style: none;
+  margin-top: 0px;
+}
+
+.navigationContainer {
+  display:block;
+
+}
+
+.logoImage{
+  float:left;
+}
+
+.navListItems{
+  display:inline;
+  margin-left: 20px;
+}
+
+.navListItems a{
+    text-decoration: none;
+    color:grey;
+}
+
+.headerBGContainer{
+  clear:left;
+  height:350px;
+  overflow:hidden;
+}
+
+.headerBGContainer img{
+  position:relative;
+}
+
+.headerBGContainer p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  color: white;
+  text-align:center;
+  position:absolute;
+  top: 40%;
+  left: 40%;
+}
