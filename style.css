@@ -11,7 +11,6 @@ ul{
 .navigationContainer{
   width:100%;
   height:30px;
-  /*background-color: lightgrey;*/ /*test background color*/
 }
 
 .logoImage{
@@ -38,11 +37,7 @@ ul{
 
 .headerBGContainer {
     position:relative;
-   /*width: 1100px;
-   height:325px;
-   overflow:hidden;*/
-   /*background-color:red;*/
- }
+}
 
 .headerBGContainer img{
   height: 325px;
@@ -54,10 +49,9 @@ ul{
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
   color:white;
-  font-style:normal;
+  font-weight: lighter;
   width:100%;
   text-align: center;
-  vertical-align: middle;
   position: absolute;
   top: 90px;
 }
@@ -68,15 +62,8 @@ ul{
     width:100%;
     height:540px;
     overflow:hidden;
-    /*background-color:white;*/
 }
 
-.bodyList{
-  /*border:1px solid black;*/
-  /*outline:1px solid black;*/
-  /*padding-left:10%;
-  padding-right:10%;*/
-}
 .bodyListItems1{
   outline:solid 1px lightgrey;
   display:block;
@@ -97,10 +84,6 @@ ul{
   width:100%auto;
   height:30%;
   background-color:#519251;
-}
-
-.bLI1Bottom{
-  /*background-color:orange;*/
 }
 
 .bodyListItems2{
@@ -186,28 +169,35 @@ a.chooseButton{
 .bodyLowerContainer{
   width:100%;
   height:350px;
-  background-color:lightblue;
 }
 
 .lowerTextList{
-    /*display:block;*/
-  width:1100px;
+  margin-left:125px;
+  width:800px;
   padding:0;
-  margin-left:175px;
-  float:left;
-
 }
 
 .lowerListItems{
-  display:block;
+  float:left;
+  margin-left:50px;
+  margin-bottom:20px;
+  width:350px;
   font-size:14px;
   line-height:18px;
-  width:350px;
 }
 
 .footerContainer{
+  text-align:center;
+  line-height: 60px;
   width:100%;
   height:60px;
-  /*overflow:hidden;*/
-  background-color:pink;
+  background-color:black;
+  color:grey;
+  font-size:10pt;
+}
+
+.footerContainer a{
+  color:white;
+  font-size:10pt;
+  font-weight: lighter;
 }
